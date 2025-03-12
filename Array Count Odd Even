@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main(){
+    int arr[5] = {1,2,3,4,5};
+    int counteven = 0;
+    int countodd = 0;
+    for(int i=0;i<5;i++)
+    {
+        if(arr[i]%2==0){
+            counteven++;
+        }
+        else{
+            countodd++;
+        }
+    }
+    printf("even count %d\n",counteven);
+    printf("odd count %d\n",countodd);
+    return 0;
+    
+    
+}
